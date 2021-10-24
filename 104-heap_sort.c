@@ -2,7 +2,7 @@
 
 
 /**
- * swapnprint - swaps two integers in an array and prints the array
+ * swapnprint - swaps two integers and prints the array
  * @a: first number
  * @b: second number
  * @array: the arry to be printed
