@@ -71,7 +71,7 @@ void swapnext(deck_node_t *current, deck_node_t **head)
 }
 
 /**
- * swapprev - swaps a node with the previous node in a doubly linked list
+ * swapprev - swaps node with the previous node in doubly linked list
  * @current: the current node
  * @head: head of the doubly linked list
  */
