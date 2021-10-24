@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- *powB - raises the number base to power power
+ *powB - raises the number base to power
  *@base : the base
  *@power : the power
  *Return: return the answer
@@ -38,7 +38,7 @@ int digitat(int num, size_t index)
 }
 
 /**
- * create_da - creats a 2d integerarray
+ * create_da - creats a second integerarray
  * @height: the height of the double array
  * @width: the width of each array in the 2d array
  * Return: a pointer to the first array
