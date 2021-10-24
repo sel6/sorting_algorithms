@@ -53,8 +53,8 @@ size_t merge_sort_rec(int *array, size_t size)
 		else
 		{
 			swap(array + i, array + j);
-			/* Here insertion sort is used when merging which is no way effiencet
-			 * speed wise but very effieceint space wise,  but space could be
+			/* Here insertion sort is used when merging is not efficient
+			 * speed wise but very good space wise,  but space could be
 			 * threaded for speed heare by creating new array putting each sorted
 			 * element in an array and copying it back. also merge sort could also be used
 			 * here which is better than the insertion sort but not much better
