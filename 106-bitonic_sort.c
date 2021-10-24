@@ -16,7 +16,7 @@ void swap(int *a, int *b)
 }
 
 /**
- * mergeup - creats an increasing bitonic sequence by merging
+ * mergeup - create an increasing bitonic sequence by merging
  * two parts of the array
  * @array: the array to be merged it must be a bitonic sequence
  * @size: the size of the subset array
@@ -36,7 +36,7 @@ void mergeup(int *array, size_t size, size_t fullsize)
 	print_array(array, size);
 }
 /**
- * mergedown - creats a decreasing bitonic sequence by merging
+ * mergedown - creates decreasing bitonic sequence by merging
  * two parts of the array
  * @array: the array to be merged it must be a bitonic sequence
  * @size: the size of the subset array
@@ -57,7 +57,7 @@ void mergedown(int *array, size_t size, size_t fullsize)
 }
 
 /**
- * bitonicSort - a recurive helper function for the bitonic sort algorithm
+ * bitonicSort - a recurive helper function for bitonic sort algorithm
  * @array: the array to be sorted
  * @size: the size of the aray/ sub array in the case of recusive calls
  * @fullsize: the full size of the array before subarrays were taken out
