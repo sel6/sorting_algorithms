@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * swapnext - swaps a node with the next node in a doubly linked list
+ * swapnext - swaps node with the next node in doubly linked list
  * @current: the current node
  * @head: head of the doubly linked list
  */
@@ -22,7 +22,7 @@ void swapnext(listint_t *current, listint_t **head)
 }
 
 /**
- * swapprev - swaps a node with the previous node in a doubly linked list
+ * swapprev - swaps node with previous node in doubly linked list
  * @current: the current node
  * @head: head of the doubly linked list
  */
@@ -45,7 +45,7 @@ void swapprev(listint_t *current, listint_t **head)
 }
 
 /**
- * cocktail_sort_list - implmentation of the cocktail sort
+ * cocktail_sort_list - implmentation of cocktail sort
  * @list: a pointer to the head of the linked list to be
  *       sorted
  */
