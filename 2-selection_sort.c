@@ -2,9 +2,9 @@
 
 
 /**
- * swap - swaps two integers in an array
- * @a: first number
- * @b: second number
+ * swap - swaps 2 integers in an array
+ * @a: 1st number
+ * @b: 2nd number
  */
 void swap(int *a, int *b)
 {
@@ -15,7 +15,7 @@ void swap(int *a, int *b)
 }
 
 /**
-* selection_sort - an implementation of the selection sort algorithm
+* selection_sort - an implementating selection sort algorithm
 * @array: the array to be sorted
 * @size:size of the array
  */
@@ -29,14 +29,14 @@ void selection_sort(int *array, size_t size)
 	{
 		j = i;
 		tmp = array[j], tmp_loc = j;
-		/*look for the smallest element*/
+		/*search smallest element*/
 		while (j < size)
 		{
 			if (array[j] < tmp)
 				tmp = array[j], tmp_loc = j;
 			j++;
 		}
-		/*swap the smallest element with the current*/
+		/*swap smallest with current*/
 		if (array[i] != array[tmp_loc])
 		{
 			swap(array + i, array + tmp_loc);
