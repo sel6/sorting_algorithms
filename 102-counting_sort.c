@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * maxof - returns the maximum element in the array
+ * maxof - returns maximum element in array
  * @array: the array
  * @size: the size of the array
  * Return: the maximum integer
@@ -21,7 +21,7 @@ int maxof(int *array, size_t size)
 	return (max);
 }
 /**
- * counting_sort - an implementation of the counting sort
+ * counting_sort - an implementation of counting sort
  * @array: the arrray to be sorted
  * @size: the size of the array
  */
@@ -47,7 +47,7 @@ void counting_sort(int *array, size_t size)
 	for (i = 0; (int)i < (int)size; i++)
 		count[max + count[array[i] - 1]] = array[i], count[array[i] - 1] -= 1;
 
-	/*copy the element back to array*/
+	/*copy element back to array*/
 	for (i = 0; (int)i < (int)size; i++)
 		array[i] = count[max + 1 + i];
 	print_array(count, max + 1);
