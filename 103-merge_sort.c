@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
-* print_elements - prints elements in an array in a given format
+* print_elements - prints elements in array in given format
 * @array: the array to be printed
 * @size: the size of the array
 */
@@ -16,9 +16,9 @@ void print_elements(int *array, size_t size)
 
 /**
 * merge_sort_rec - a recursive merging algorithm
-* in this implmentation one workgin array is utilized
+* one working array is utilized
 * and most of the calculation (the dividing) is done
-* on the actuall array
+* on the actual array
 * @array: the array to be sorted
 * @working_array: an array of equal size to array for
 * temp work.
@@ -67,7 +67,7 @@ size_t merge_sort_rec(int *array, int *working_array, size_t size)
 }
 
 /**
-* merge_sort - an implementation of the merge sort algorithm
+* merge_sort - an implementation of merge sort algorithm
 * @array: the array to be sorted
 * @size: the size of the array
 */
