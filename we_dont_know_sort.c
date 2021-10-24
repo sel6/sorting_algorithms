@@ -2,7 +2,7 @@
 
 
 /**
-* selectoin_sort - an implementation of the selection sort algorithm
+* selectoin_sort - an implementation of selection sort algorithm
 * @array: the array to be sorted
 * @size:size of the array
  */
@@ -30,7 +30,7 @@ void selection_sort(int *array, size_t size)
 	}
 }
 /**
- * insertion_sort - an implementation of the insertion sort with arrays
+ * insertion_sort - an implementation insertion sort with arrays
  * @array: the array to be sorted
  * @size: the size of the array
  */
