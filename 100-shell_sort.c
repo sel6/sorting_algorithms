@@ -15,8 +15,8 @@ void swap(int *a, int *b)
 }
 
 /**
- * shell_sort - an implementation of the shell sort with the
- * knuth sequence
+ * shell_sort - an implementation of shell sort with the
+ * knuth
  * @array: the array to be sorted
  * @size: the size of the array
  */
@@ -45,7 +45,7 @@ void shell_sort(int *array, size_t size)
 			{
 				k = i - gap, z = i;
 				/*
-				 * take the current element and put it in its right place in
+				 * take current element and put it in its right place in
 				 * the subgroup
 				 */
 				while (k >= 0)
