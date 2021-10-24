@@ -2,10 +2,9 @@
 
 
 /**
- * swapprev - swaps a node with the previous node in a doubly linked list
- * @current: the current node
- * @head: head of the doubly linked list
- */
+ * swapprev - swaps node with previous in doubly linked list
+ * @current: current node
+ * @head: head DLL */
 void swapprev(listint_t *current, listint_t **head)
 {
 	listint_t *tmp = NULL;
@@ -25,7 +24,7 @@ void swapprev(listint_t *current, listint_t **head)
 }
 /**
  * insertion_sort_list - implemetnation of insertion sort in
- * a doubly linked list
+ * a DOUBLY LINKed list
  * @list: a pointer to the head of the list to be sorted
  */
 void insertion_sort_list(listint_t **list)
