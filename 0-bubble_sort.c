@@ -3,8 +3,8 @@
 
 /**
  * swap - swaps two integers in an array
- * @a: first number
- * @b: second number
+ * @a: 1st no.
+ * @b: 2nd no.
  */
 void swap(int *a, int *b)
 {
@@ -15,7 +15,7 @@ void swap(int *a, int *b)
 }
 
 /**
- * bubble_sort -  an implementation of bubble sort
+ * bubble_sort -  implment
  * @array: the array to be sorted
  * @size: the size of the array
  *
