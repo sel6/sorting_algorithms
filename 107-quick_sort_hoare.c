@@ -2,7 +2,7 @@
 
 
 /**
- * swapnprint - swaps two integers in an array and prints the array
+ * swapnprint - swaps 2 integers in an array and prints the array
  * @a: first number
  * @b: second number
  * @array: the arry to be printed
@@ -22,7 +22,7 @@ void swapnprint(int *a, int *b, int *array, size_t size)
  * with the hoare scheme in mind
  * @array: the array to be sorted
  * @size: the length of the array
- * @beg: the begning of the usnorted subset of the array from the left
+ * @beg: the start of the usnorted subset of the array from the left
  *    [1,2,4,3,7,6,8] in this case index 2
  * @end: the begning of the unsorted subset of the array from the right
  */
@@ -60,7 +60,7 @@ void quick_sort_rec(int *array, size_t size, size_t beg, size_t end)
 }
 
 /**
-* quick_sort_hoare - an implentation of the quick sort  algorithhm
+* quick_sort_hoare - implentation of the quick sort  algorithhm
 * with the Hoare scheme
 * @array: the array to be sorted
 * @size: the size of the array
